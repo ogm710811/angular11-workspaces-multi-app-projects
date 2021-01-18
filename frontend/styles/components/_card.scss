@@ -1,0 +1,16 @@
+// Card Components
+
+.card-box {
+  position: relative;
+
+  &__notification {
+    position: absolute;
+    top: -1.2rem;
+    right: 0.5rem;
+  }
+
+  &__icon {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+}

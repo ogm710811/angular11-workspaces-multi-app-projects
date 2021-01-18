@@ -1,0 +1,38 @@
+// Utilities
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/utilities";
+
+$utilities: map-merge(
+    $utilities,
+    (
+      "pill-card-width": (
+        property: width,
+        class: pill-w,
+        responsive: true,
+        values: (
+          s: 15.6rem,
+          m: 24.3rem,
+          l: 32.6rem,
+          xl: 50rem,
+          xxl: 65rem
+        )
+      )
+    )
+);
+
+$utilities: map-merge(
+    $utilities,
+    (
+      "pill-card-height": (
+        property: height,
+        class: pill-h,
+        responsive: true,
+        values: (
+          s: 11.4rem,
+          m: 32.6rem,
+        )
+      )
+    )
+);

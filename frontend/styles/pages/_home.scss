@@ -1,0 +1,14 @@
+// Home page
+
+.container-lg > [class*='row'] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-lg > [class*="row"]:first-child {
+  padding-top: 2rem;
+}
+
+.container-lg > [class*="row"]:last-child {
+  padding-bottom: 2rem;
+}

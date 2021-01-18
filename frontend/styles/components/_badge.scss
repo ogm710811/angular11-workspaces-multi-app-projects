@@ -1,0 +1,13 @@
+// Badge Component
+
+@import "node_modules/bootstrap/scss/functions";
+
+.badge-notification {
+  @extend .badge;
+  padding: 0.9rem 1.2rem;
+}
+
+.badge-icon {
+  @extend .badge;
+  padding: 0.7rem 0.7rem;
+}

@@ -1,0 +1,21 @@
+// Custom theme
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+  "white": $white,
+  "gray-200": $gray-200,
+  "primary": $cyan-500,
+  "secondary": $blue-900,
+  "card-default": $white,
+  "card-primary": $cyan-500,
+  "card-secondary": $blue-800,
+  "card-tertiary": $green-200,
+  "card-icon": $blue-100,
+  "badge-pink": $pink-500,
+  "badge-icon-cyan": $cyan-500,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
