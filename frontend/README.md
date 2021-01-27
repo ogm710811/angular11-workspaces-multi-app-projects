@@ -1,27 +1,14 @@
 # PrototypeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+This project is a submodule of the "angular11-prototype-workspace".
 
-## Development server
+## Why submodules?
+Submodules are useful when you have a project that is under git version control, 
+and you want to include a copy of another project that is also under git version control.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## How this submodule was created?
+1. Initialize two git repository in the frontend directory and in the angular11-prototype-workspace.
+2. From the angular11-prototype-workspace directory run this command:  git submodule add <url>/frontend :: url example: https://github.com/ogm710811
+3. Check git status with command: git status.
+4. Add folders and files with command: git add <files>.
+5. Commit your first changes with command: git commit -m "added submodule".
