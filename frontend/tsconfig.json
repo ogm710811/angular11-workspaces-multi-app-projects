@@ -19,6 +19,10 @@
       "@libraries/components": [
         "dist/libraries/components/libraries-components",
         "dist/libraries/components"
+      ],
+      "@libraries/vendors": [
+        "dist/libraries/vendors/libraries-vendors",
+        "dist/libraries/vendors"
       ]
     }
   }

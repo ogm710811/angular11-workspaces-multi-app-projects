@@ -1,5 +1,62 @@
 // Grid
 
+// Bootstrap variables
 $grid-columns: 16;
-$grid-gutter-width: 20px;
+$grid-gutter-width: 2rem;
+
+// CSS Grid implementation
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14.25rem, 1fr));
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(14.25rem, auto);
+  grid-auto-flow: dense;
+}
+
+// Single grid item
+.grid-item {
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #929796;
+  background-color: #333;
+  border-radius: 1.5rem;
+  &:nth-child(odd) {
+    background-color: #424242;
+  }
+}
+
+// Symmetric grid items
+.item-span-2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.item-span-3 {
+  grid-column-end: span 3;
+  grid-row-end: span 3;
+}
+
+// Asymmetric grid items
+// width classes
+.item-w-span-2 {
+  grid-column-end: span 2;
+}
+
+.item-w-span-3 {
+  grid-column-end: span 3;
+}
+
+.item-w-span-4 {
+  grid-column-end: span 4;
+}
+
+// height classes
+.item-h-span-2 {
+  grid-row-end: span 2;
+}
+
+.item-h-span-3 {
+  grid-row-end: span 3;
+}
 

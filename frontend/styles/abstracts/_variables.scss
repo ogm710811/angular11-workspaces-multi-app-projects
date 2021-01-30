@@ -5,3 +5,25 @@
 
 $border-radius-lg: 1.6rem;
 $badge-border-radius: 50%;
+
+//$grid-breakpoints: map-remove($grid-breakpoints, 'xxl');
+//$grid-breakpoints: (
+//  xs: 0,
+//  sm: 576px,
+//  md: 768px,
+//  lg: 992px,
+//  xl: 1200px,
+//  xxl: 1440px
+//);
+
+// Spacing : adding more entries to the $spacers map
+$custom-spacers: (
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+  9: $spacer * 5,
+  10: $spacer * 5.5
+);
+
+// Merge the spacers maps
+$spacers: map-merge($spacers, $custom-spacers);

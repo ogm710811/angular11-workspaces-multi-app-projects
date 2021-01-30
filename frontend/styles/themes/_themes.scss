@@ -17,5 +17,5 @@ $custom-colors: (
   "badge-icon-cyan": $cyan-500,
 );
 
-// Merge the maps
+// Merge the colors maps
 $theme-colors: map-merge($theme-colors, $custom-colors);

@@ -55,6 +55,7 @@
               }
             ],
             "styles": [
+              "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "projects/prototype-v1/src/styles.scss"
             ],
@@ -64,7 +65,8 @@
               ]
             },
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/masonry-layout/dist/masonry.pkgd.min.js"
             ]
           },
           "configurations": {
@@ -126,6 +128,7 @@
               "projects/prototype-v1/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/prototype-v1/src/styles.scss"
             ],
             "scripts": []
@@ -190,6 +193,46 @@
             "tsConfig": [
               "projects/libraries/components/tsconfig.lib.json",
               "projects/libraries/components/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "@libraries/vendors": {
+      "projectType": "library",
+      "root": "projects/libraries/vendors",
+      "sourceRoot": "projects/libraries/vendors/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/libraries/vendors/tsconfig.lib.json",
+            "project": "projects/libraries/vendors/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/libraries/vendors/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/libraries/vendors/src/test.ts",
+            "tsConfig": "projects/libraries/vendors/tsconfig.spec.json",
+            "karmaConfig": "projects/libraries/vendors/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/libraries/vendors/tsconfig.lib.json",
+              "projects/libraries/vendors/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

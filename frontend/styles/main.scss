@@ -3,7 +3,6 @@
 @import "base/reset";
 @import "base/typography";
 @import "layout/grid";
-@import "layout/sidebar";
 @import "themes/themes";
 @import "abstracts/utilities";
 @import "vendor/bootstrap";
@@ -11,5 +10,7 @@
 // Custom Classes
 @import "components/badge";
 @import "components/card";
+@import "layout/header";
+@import "layout/sidebar";
 @import "pages/home";
 @import "pages/home";
