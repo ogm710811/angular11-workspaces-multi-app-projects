@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="521px" height="368px" viewBox="0 0 521 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pill-plans</title>
+    <g id="pill-plans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <path d="M10,0 L511,0 C516.522847,-3.04461744e-14 521,4.4771525 521,10 L521,358 C521,363.522847 516.522847,368 511,368 L10,368 C4.4771525,368 6.76353751e-16,363.522847 0,358 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <text id="Your-plans-(3)" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" line-spacing="43" fill="#3C3C3C">
+                <tspan x="31" y="37">Your plans (3)</tspan>
+            </text>
+            <text id="Participants-with-a" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="31" y="313">Participants with a balance</tspan>
+            </text>
+            <text id="9,876" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                <tspan x="31" y="293">9,876</tspan>
+            </text>
+            <text id="$459,876,892.36" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                <tspan x="328.2225" y="292.8405">$459,876,892.36</tspan>
+            </text>
+            <text id="Total-balance" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="331.2225" y="312.8405">Total balance</tspan>
+            </text>
+            <g id="Group-15" transform="translate(0.000000, 86.000000)">
+                <g id="Group-14">
+                    <g id="divider_dashed" transform="translate(0.000000, 43.000000)" stroke="#D9DFE2" stroke-dasharray="8">
+                        <line x1="0" y1="124" x2="518" y2="124" id="Stroke-5"></line>
+                        <line x1="0" y1="59" x2="518" y2="59" id="Stroke-5"></line>
+                        <line x1="0" y1="0" x2="518" y2="0" id="Stroke-4"></line>
+                    </g>
+                    <path d="M38.4683358,23 C159.227762,38.5439079 166.746881,123.970254 237.29453,145.984317 C305.460962,167.255333 366.892894,69.7805709 485.468336,48.1775159" id="Stroke-7" stroke="#F87F4C" stroke-width="3" transform="translate(261.968336, 86.000000) scale(-1, -1) translate(-261.968336, -86.000000) "></path>
+                    <path d="M38.4683358,42.5609553 C42.1528667,71.9367955 47.0579099,105.814241 50.4251259,105.23186 C54.1740395,104.582223 53.5154963,61.6388958 57.7831506,60.9036591 C63.0294222,60.000281 64.7328049,124.754611 78.0177185,129.688799 C91.7882617,134.803356 100.455555,75.7528422 134.327302,35.1619671 C169.638462,-7.15465063 213.021376,-0.279193811 224.463104,1.53367675 C294.975055,12.7074405 299.365501,74.1163097 340.558578,89.9411554 C380.361252,105.23186 416.231623,35.1619671 485.468336,19.6325755" id="Stroke-7" stroke="#05659A" stroke-width="3"></path>
+                </g>
+                <path d="M491,19.0007654 C491,15.6865672 488.089181,13 484.5,13 C480.909161,13 478,15.6865672 478,19.0007654 C478,22.3134328 480.909161,25 484.5,25 C488.089181,25 491,22.3134328 491,19.0007654 Z" id="End-dot" stroke="#05659A" stroke-width="3" fill="#FFFFFF"></path>
+                <path d="M45,39.0007654 C45,35.6865672 42.0891809,33 38.5,33 C34.9091605,33 32,35.6865672 32,39.0007654 C32,42.3134328 34.9091605,45 38.5,45 C42.0891809,45 45,42.3134328 45,39.0007654 Z" id="End-dot" stroke="#05659A" stroke-width="3" fill="#FFFFFF"></path>
+                <path d="M45,123.000765 C45,119.686567 42.0891809,117 38.5,117 C34.9091605,117 32,119.686567 32,123.000765 C32,126.313433 34.9091605,129 38.5,129 C42.0891809,129 45,126.313433 45,123.000765 Z" id="End-dot" stroke="#F87F4C" stroke-width="3" fill="#FFFFFF"></path>
+                <path d="M491,148.000765 C491,144.686567 488.089181,142 484.5,142 C480.909161,142 478,144.686567 478,148.000765 C478,151.313433 480.909161,154 484.5,154 C488.089181,154 491,151.313433 491,148.000765 Z" id="End-dot" stroke="#F87F4C" stroke-width="3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

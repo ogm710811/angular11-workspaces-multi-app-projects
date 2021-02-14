@@ -1,21 +1,39 @@
 // Custom theme
 
+@import "styles/abstracts/functions";
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 
-$custom-colors: (
-  "white": $white,
-  "gray-200": $gray-200,
-  "primary": $cyan-500,
-  "secondary": $blue-900,
+
+$primary: #ffffff;
+$secondary: #035d8e;
+$info: #363333;
+$light: #f8f7f4;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "info":       $info,
+  "light":      $light
+);
+
+$app-card-colors: (
   "card-default": $white,
   "card-primary": $cyan-500,
   "card-secondary": $blue-800,
   "card-tertiary": $green-200,
+);
+
+$app-badge-colors: (
   "card-icon": $blue-100,
   "badge-pink": $pink-500,
   "badge-icon-cyan": $cyan-500,
 );
 
-// Merge the colors maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
+// Merge color maps
+//$theme-colors: map-merge(
+//    map-merge($theme-colors, $app-card-colors),
+//    $app-badge-colors
+//);
+
+$theme-colors: map-collect($theme-colors, $app-card-colors, $app-badge-colors)

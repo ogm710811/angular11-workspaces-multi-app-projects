@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="436px" height="57px" viewBox="0 0 436 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>search</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="426" height="47" rx="23.5"></rect>
+        <filter x="-2.0%" y="-13.8%" width="104.0%" height="136.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13" transform="translate(5.000000, 3.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="Search-PlanFocus" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="-0.0160000008" fill="#8C8C8C">
+                <tspan x="65" y="29">Search PlanFocus</tspan>
+            </text>
+            <g id="icn_search" transform="translate(26.000000, 11.000000)">
+                <rect id="Rectangle-2" x="0" y="0" width="24.9821556" height="25"></rect>
+                <g id="mag-glass" transform="translate(2.000000, 2.000000)" stroke="#778F9B" stroke-width="2">
+                    <path d="M17.3834261,8.9021 C17.3834261,13.4591 13.6920628,17.1531 9.13831549,17.1531 C4.58456817,17.1531 0.893204854,13.4591 0.893204854,8.9021 C0.893204854,4.3451 4.58456817,0.6511 9.13831549,0.6511 C13.6920628,0.6511 17.3834261,4.3451 17.3834261,8.9021 Z" id="Stroke-29"></path>
+                    <line x1="14.9254818" y1="15.1039" x2="21.0181299" y2="20.6509" id="Stroke-31" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -3,18 +3,11 @@
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 
-$border-radius-lg: 1.6rem;
+$border-radius-lg: 1rem;
 $badge-border-radius: 50%;
 
-//$grid-breakpoints: map-remove($grid-breakpoints, 'xxl');
-//$grid-breakpoints: (
-//  xs: 0,
-//  sm: 576px,
-//  md: 768px,
-//  lg: 992px,
-//  xl: 1200px,
-//  xxl: 1440px
-//);
+// Shadow
+$box-shadow: 0 0.2rem 0.5rem 0 rgba($black, .15);
 
 // Spacing : adding more entries to the $spacers map
 $custom-spacers: (

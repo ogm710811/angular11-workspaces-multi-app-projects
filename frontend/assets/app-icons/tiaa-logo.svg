@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="39px" viewBox="0 0 41 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tiaa-logo</title>
+    <defs>
+        <linearGradient x1="29.9446098%" y1="68.9051425%" x2="97.6452133%" y2="5.20902033%" id="linearGradient-1">
+            <stop stop-color="#9EDAF7" offset="0%"></stop>
+            <stop stop-color="#049CD8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0004184514%" y1="50.0036306%" x2="100.000692%" y2="50.0036306%" id="linearGradient-2">
+            <stop stop-color="#11AEE5" offset="0%"></stop>
+            <stop stop-color="#005493" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9953228%" y1="100.01982%" x2="49.995308%" y2="0.0190919838%" id="linearGradient-3">
+            <stop stop-color="#0980BC" offset="0%"></stop>
+            <stop stop-color="#005493" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="tiaa-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TIAA-mark">
+            <path d="M23.5614975,39 C26.3039724,39 28.7875913,37.9199729 30.5785953,36.1875212 L38.1553819,28.9814626 C39.9016108,27.297502 40.9888062,24.9890358 41,22.4469312 L41,0 L17.4371033,0 C14.6960276,0 12.2110095,1.08002713 10.4214047,2.81247881 L2.84601734,10.0185374 C1.09698997,11.702498 0.0125929971,14.0109642 0,16.5530688 L0,39 L23.5614975,39 Z" id="Fill-1" fill="#FEFEFE"></path>
+            <path d="M19.616855,2 C15.4226423,2 12.0192206,5.13311177 12,9.00087458 L12,9.00087458 L12,11.3825433 L27.8419052,11.3825433 L27.8419052,26 L30.3858908,26 C34.5924596,26 38,22.8528949 38,18.972538 L38,18.972538 L38,2 L19.616855,2 Z" id="Fill-3" fill="url(#linearGradient-1)"></path>
+            <path d="M31.9590198,28.2732312 L10.5164745,28.2732312 L2,37 L24.1315898,37 C26.2852142,37 28.3091021,36.1229214 29.8327842,34.5334203 L29.8327842,34.5334203 L37,27.1891099 L36.812603,27 C35.3710873,27.810238 33.7176689,28.2732312 31.9590198,28.2732312" id="Fill-6" fill="url(#linearGradient-2)"></path>
+            <path d="M4.46269759,10.7551494 C2.87457527,12.1926067 2,14.101214 2,16.13136 L2,16.13136 L2,37 L10.7280248,28.9679443 L10.7280248,8.75051153 C10.7280248,7.09398445 11.1889496,5.53348793 12,4.1725549 L12,4.1725549 L11.8094253,4 L4.46269759,10.7551494 Z" id="Fill-9" fill="url(#linearGradient-3)"></path>
+        </g>
+    </g>
+</svg>

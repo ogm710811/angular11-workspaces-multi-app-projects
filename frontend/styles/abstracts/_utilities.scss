@@ -12,11 +12,10 @@ $utilities: map-merge(
         class: pill-w,
         responsive: true,
         values: (
-          1: 14.25rem,
-          2: 30.50rem,
-          3: 46.75rem,
-          4: 63.00rem,
-          5: 65rem
+          0: 20.5rem, // workspace
+          1: 16.5rem,
+          2: 36.2rem,
+          3: 55.9rem,
         )
       )
     )
@@ -30,9 +29,9 @@ $utilities: map-merge(
         class: pill-h,
         responsive: true,
         values: (
-          xs: 10.00rem,
-          s: 14.25rem,
-          m: 30.50rem,
+          xs: 10rem, // workspace
+          s: 16.5rem,
+          m: 36.2rem,
         )
       )
     )

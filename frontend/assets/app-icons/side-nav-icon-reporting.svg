@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>side-nav-icon-reporting</title>
+    <g id="side-nav-icon-reporting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4" stroke-linecap="round">
+        <g id="Untitled-4" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <path d="M3.71517028,10.8306659 L6.48580574,10.8306659 M3.71517028,7.7451855 L7.43034056,7.7451855" id="Shape" stroke-linejoin="round"></path>
+            <path d="M13.622291,15.3202399 L13.622291,3.56520898 C13.622291,2.98471362 13.1123657,2.47678019 12.5295939,2.47678019 L1.09269714,2.47678019 C0.509925332,2.47678019 0,2.98471362 0,3.56520898 L0,19.9642028 C0,20.5446981 0.509925332,21.0526316 1.09269714,21.0526316 L8.15880532,21.0526316 L13.622291,15.3202399 Z" id="Path" stroke-linejoin="round"></path>
+            <polyline id="Path" points="7.43034056 21.0526316 7.43034056 14.8606811 12.3839009 14.8606811"></polyline>
+            <polygon id="Path" fill="#012F48" points="16.5229497 0 19.8142415 3.04643963 13.5308662 9.58513932 8.66873065 11.1455108 9.86556403 6.83591331"></polygon>
+        </g>
+    </g>
+</svg>

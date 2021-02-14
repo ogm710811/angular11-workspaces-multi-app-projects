@@ -1,0 +1,31 @@
+// Media queries
+
+@import "node_modules/bootstrap/scss/mixins";
+
+.main-content {
+  max-width: 100%;
+}
+
+@include media-breakpoint-down(xxl) {
+  .main-content {
+    max-width: 93.25%;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .main-content {
+    max-width: 91.33%;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .main-content {
+    max-width: 87.55%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .main-content {
+    max-width: 100%;
+  }
+}

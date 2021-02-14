@@ -1,0 +1,16 @@
+// Functions
+
+/*
+ *  @name: map-collect
+ *  merge a collection of maps.
+ *  @params:
+ *     $maps: collection of maps to be merge separated by commas.
+ */
+@function map-collect($maps...) {
+  $collection: ();
+
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+  @return $collection;
+}

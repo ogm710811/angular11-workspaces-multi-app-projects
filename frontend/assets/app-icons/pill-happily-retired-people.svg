@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="362px" height="165px" viewBox="0 0 362 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pill-happily-retired-people</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="362" height="165" rx="10"></rect>
+        <linearGradient x1="50%" y1="0.395166139%" x2="50%" y2="100.402%" id="linearGradient-3">
+            <stop stop-color="#F5EFDF" offset="0%"></stop>
+            <stop stop-color="#DF7506" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.8759698%" y1="18.1636896%" x2="52.2454445%" y2="52.6333384%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="56.2538887%" y1="42.4474886%" x2="49.3518678%" y2="50.782688%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.2624377%" y1="47.1164023%" x2="49.1324641%" y2="51.9845294%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.009249%" y1="70.428947%" x2="70.1311486%" y2="29.8754771%" id="linearGradient-7">
+            <stop stop-color="#F2E5D6" offset="0%"></stop>
+            <stop stop-color="#F4BE84" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.2709459%" y1="95.1327097%" x2="58.2413043%" y2="38.9717414%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.4267146%" y1="81.5559111%" x2="51.4267146%" y2="17.8852671%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F8E5D0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.2285731%" y1="55.1178166%" x2="48.073199%" y2="45.5783574%" id="linearGradient-10">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="53.3826433%" y1="55.5389078%" x2="45.0130997%" y2="41.4050916%" id="linearGradient-11">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="71.3373275%" y1="79.5287008%" x2="37.781657%" y2="33.091428%" id="linearGradient-12">
+            <stop stop-color="#F5DCC2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pill-happily-retired-people" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20">
+            <g id="GettyImages-1145015955-[Converted]" opacity="0.822174782" transform="translate(181.000000, 82.500000) scale(-1, -1) translate(-181.000000, -82.500000) ">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(-60.000000, -123.000000)">
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" x="47" y="12" width="437" height="330"></rect>
+                        <polygon id="Path" fill="url(#linearGradient-4)" opacity="0.2" points="332 0 18 227 18 0"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-5)" opacity="0.2" points="495 178 74 0 495 0"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-6)" opacity="0.2" points="506 140 0 37.5959501 0 0 506 0"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-7)" opacity="0.5" points="45.2745902 117 339 353 41 349.274118"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-8)" opacity="0.5" points="201 352 28 166 28 352"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-9)" opacity="0.5" points="22 269 418 352 22 352"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-10)" opacity="0.5" points="504 207 89 351 504 348.861549"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-11)" opacity="0.5" points="495 152 28 351.278855 495 355"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-12)" opacity="0.5" points="278 356 493 97 493 355.190573"></polygon>
+                    </g>
+                </g>
+            </g>
+            <text id="happily-retired-peop" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" line-spacing="28" letter-spacing="-0.428571429" fill="#7E4100">
+                <tspan x="59" y="93">happily </tspan>
+                <tspan x="59" y="121">retired people</tspan>
+            </text>
+            <text id="4,256" font-family="Roboto-Light, Roboto" font-size="36" font-weight="300" line-spacing="28" letter-spacing="-0.642857143" fill="#AA5405">
+                <tspan x="58" y="68">4,256</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

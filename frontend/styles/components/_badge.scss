@@ -4,10 +4,12 @@
 
 .badge-notification {
   @extend .badge;
-  padding: 0.9rem 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1.2rem 1.5rem;
 }
 
 .badge-icon {
   @extend .badge;
-  padding: 0.7rem 0.7rem;
+  padding: 1.2rem 1.2rem;
 }

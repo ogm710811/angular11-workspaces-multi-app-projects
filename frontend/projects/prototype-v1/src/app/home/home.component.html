@@ -1,93 +1,333 @@
-<div class="home container-lg">
-<!--  <div class="row">-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--    <div class="col-1 text-center">-->
-<!--      <div class="bg-success">col-1</div>-->
-<!--    </div>-->
-<!--  </div>-->
+<div class="home container-lg pt-4 pb-5">
   <div class="home-workspaces row">
     <div class="col-auto text-center">
-      <lib-card [cardConfig]="customCardSettings1">Workspace 1</lib-card>
+      <lib-card [cardConfig]="workspaceSettings1">
+        <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>plus-sign</title>
+          <g id="plus-sign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="22" cy="22" r="20"></circle>
+            <g id="Group" transform="translate(14.300000, 14.800000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+              <line x1="7.7" y1="0.1" x2="7.7" y2="14.3" id="Path"></line>
+              <line x1="14.8" y1="7.2" x2="0.5" y2="7.2" id="Path"></line>
+            </g>
+          </g>
+        </svg>
+        <p class="text-white mt-3">Add workspace</p>
+      </lib-card>
     </div>
     <div class="col-auto text-center">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 2</lib-card>
-    </div>
-    <div class="col-auto text-center d-none d-sm-block">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 3</lib-card>
+      <lib-card [cardConfig]="workspaceSettings2">
+        <svg width="44px" height="44px" viewBox="0 0 44 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>top-icon-user-management</title>
+          <g id="top-icon-user-management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Group-3" transform="translate(-0.000000, 0.000000)">
+              <path d="M21.6346154,0 L0,12.5 L0,37.4999023 L21.6346154,50 L43.2692308,37.4999023 L43.2692308,12.5 L21.6346154,0 Z M20.1681198,4.23652344 L20.1681198,11.8796875 L6.93960379,11.8796875 L20.1681198,4.23652344 Z M23.101111,11.8796875 L23.101111,4.23662109 L36.329627,11.8796875 L23.101111,11.8796875 Z M23.1010134,14.8148437 L23.1010134,14.8148437 L36.3295294,14.8148437 L23.1010134,22.4580078 L23.1010134,14.8148437 Z M6.93960379,14.8148437 L20.1681198,14.8148437 L20.1681198,22.4580078 L6.93960379,14.8148437 Z M5.46032469,17.3494141 L18.7505139,25.0282227 L12.0964416,28.8519531 L5.46032469,17.3494141 Z M24.5676065,25 L37.7961225,17.3569336 L31.1819621,28.8214844 L24.5676065,25 Z M33.721884,30.2891602 L40.3361421,18.8244141 L40.3361421,34.1105469 L33.721884,30.2891602 Z M2.93299113,18.8392578 L9.55300662,30.3135742 L2.93299113,34.1176758 L2.93299113,18.8392578 Z M23.101111,27.5418945 L29.715369,31.3634766 L23.101111,42.8282227 L23.101111,27.5418945 Z M13.5631323,31.39375 L20.1681198,27.5982422 L20.1681198,42.8420898 L13.5631323,31.39375 Z M32.2553885,32.8310547 L38.8696465,36.6526367 L25.6411305,44.2958008 L32.2553885,32.8310547 Z M4.40543934,36.6560547 L11.0195022,32.8554688 L17.6158047,44.2888672 L4.40543934,36.6560547 Z" id="Fill-1" fill="#FFB655"></path>
+              <path d="M22.1153846,0 L22.1153846,50 L43.2692308,37.4999023 L43.2692308,12.5 L22.1153846,0 Z M23.5492914,4.23662109 L36.4838404,11.8796875 L23.5492914,11.8796875 L23.5492914,4.23662109 Z M23.549196,14.8148437 L23.549196,14.8148437 L36.483745,14.8148437 L23.549196,22.4580078 L23.549196,14.8148437 Z M24.9831982,25 L37.9177472,17.3569336 L31.4505681,28.8214844 L24.9831982,25 Z M33.9340473,30.2891602 L40.4013218,18.8244141 L40.4013218,34.1106445 L33.9340473,30.2891602 Z M23.5492914,27.5418945 L30.0165659,31.3634766 L23.5492914,42.8282227 L23.5492914,27.5418945 Z M32.5001405,32.8310547 L38.967415,36.6526367 L26.032866,44.2958008 L32.5001405,32.8310547 Z" id="Fill-2" fill="#FF7C48"></path>
+            </g>
+          </g>
+        </svg>
+        <p class="text-info mt-3">User management</p>
+      </lib-card>
     </div>
     <div class="col-auto text-center d-none d-lg-block">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 4</lib-card>
+      <lib-card [cardConfig]="customCardSettings3">
+        <svg width="44px" height="44px" viewBox="0 0 46 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>top-icon-payroll</title>
+          <defs>
+            <path d="M42.7832031,32.6003906 L42.7832031,17.3996094 C44.278418,16.8125977 45.340332,15.355957 45.340332,13.6550781 C45.340332,11.4374023 43.5360352,9.63310547 41.3183594,9.63310547 C40.3025391,9.63310547 39.3741211,10.0124023 38.6654297,10.6358398 L26.6704102,4.43964844 C26.684668,4.30234375 26.6920898,4.16298828 26.6920898,4.02197266 C26.6920898,1.80429687 24.8878906,0 22.6701172,0 C20.4524414,0 18.6481445,1.80429687 18.6481445,4.02197266 C18.6481445,4.16298828 18.6555664,4.30234375 18.6698242,4.43964844 L6.67490234,10.6358398 C5.96621094,10.0124023 5.03779297,9.63310547 4.02197266,9.63310547 C1.80429688,9.63310547 0,11.4374023 0,13.6550781 C0,15.3560547 1.06191406,16.8126953 2.55712891,17.399707 L2.55712891,32.6004883 C1.06191406,33.1875 0,34.6441406 0,36.3451172 C0,38.562793 1.80429688,40.3670898 4.02197266,40.3670898 C5.03779297,40.3670898 5.96621094,39.987793 6.67490234,39.3643555 L18.6698242,45.5604492 C18.6555664,45.6977539 18.6481445,45.8371094 18.6481445,45.978125 C18.6481445,48.1957031 20.4524414,50 22.6701172,50 C24.887793,50 26.6920898,48.1957031 26.6920898,45.9780273 C26.6920898,45.8370117 26.684668,45.6976563 26.6704102,45.5603516 L38.665332,39.3641602 C39.3740234,39.9875977 40.3024414,40.3668945 41.3182617,40.3668945 C43.5359375,40.3668945 45.340332,38.5625977 45.340332,36.3449219 C45.340332,34.644043 44.2783203,33.1874023 42.7832031,32.6003906 Z M6.45859375,33.1480469 C6.16386719,32.9229492 5.83730469,32.7379883 5.48681641,32.6003906 L5.48681641,17.3996094 C5.83720703,17.2620117 6.16386719,17.0771484 6.45859375,16.8519531 L18.7094727,24.3050781 C18.6699219,24.530957 18.6481445,24.7628906 18.6481445,24.9999023 C18.6481445,25.2369141 18.6699219,25.4688477 18.7094727,25.6947266 L6.45859375,33.1480469 Z M21.2052734,42.2333984 C20.7666016,42.4056641 20.365332,42.6525391 20.0171875,42.9587891 L8.02226563,36.7626953 C8.03652344,36.6253906 8.04394531,36.4860352 8.04394531,36.3450195 C8.04394531,36.1080078 8.02216797,35.8760742 7.98261719,35.6501953 L20.2334961,28.1970703 C20.5282227,28.422168 20.8547852,28.6071289 21.2052734,28.7447266 L21.2052734,42.2333984 Z M21.2052734,21.2553711 C20.8548828,21.3929688 20.5282227,21.577832 20.2334961,21.8030273 L7.98261719,14.3499023 C8.02216797,14.1240234 8.04394531,13.8920898 8.04394531,13.6550781 C8.04394531,13.5140625 8.03652344,13.374707 8.02226563,13.2374023 L20.0171875,7.04130859 C20.365332,7.34755859 20.7665039,7.59443359 21.2052734,7.76669922 L21.2052734,21.2553711 L21.2052734,21.2553711 Z M25.3230469,7.04121094 L37.3179688,13.2374023 C37.3037109,13.374707 37.2962891,13.5140625 37.2962891,13.6550781 C37.2962891,13.8920898 37.3180664,14.1240234 37.3576172,14.3499023 L25.1067383,21.8030273 C24.8120117,21.5779297 24.4854492,21.3929687 24.1349609,21.2553711 L24.1349609,7.76660156 L24.1349609,7.76660156 C24.5736328,7.59433594 24.9749023,7.34746094 25.3230469,7.04121094 Z M37.3179688,36.7626953 L25.3230469,42.9588867 C24.9749023,42.6525391 24.5736328,42.4056641 24.1349609,42.2334961 L24.1349609,28.7446289 C24.4853516,28.6070313 24.8120117,28.422168 25.1067383,28.1969727 L37.3576172,35.6500977 C37.3180664,35.8759766 37.2962891,36.1079102 37.2962891,36.3449219 C37.2963867,36.4860352 37.3038086,36.6253906 37.3179688,36.7626953 Z M39.8535156,32.6003906 C39.5030273,32.7379883 39.1764648,32.9228516 38.8817383,33.1480469 L26.6308594,25.6949219 C26.6704102,25.469043 26.6921875,25.2371094 26.6921875,25.0000977 C26.6921875,24.7630859 26.6704102,24.5311523 26.6308594,24.3052734 L38.8817383,16.8521484 C39.1764648,17.0773438 39.503125,17.262207 39.8535156,17.3998047 L39.8535156,32.6003906 Z" id="path-1"></path>
+          </defs>
+          <g id="top-icon-payroll" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Rectangle" transform="translate(0.083691, 0.000000)">
+              <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+              </mask>
+              <use id="Mask" fill="#01A3C3" fill-rule="nonzero" xlink:href="#path-1"></use>
+              <rect fill="#016A82" mask="url(#mask-2)" transform="translate(28.913379, 36.148437) rotate(-301.000000) translate(-28.913379, -36.148437) " x="15.9133789" y="8.6484375" width="26" height="55"></rect>
+            </g>
+          </g>
+        </svg>
+        <p class="text-info mt-3">Payroll</p>
+      </lib-card>
     </div>
     <div class="col-auto text-center d-none d-xl-block">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 5</lib-card>
-    </div>
-    <div class="col-auto text-center d-none d-xl-block">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 6</lib-card>
+      <lib-card [cardConfig]="workspaceSettings4">
+        <svg width="44px" height="44px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>top-icon-reporting</title>
+          <g id="top-icon-reporting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Rectangle" transform="translate(0.000000, -0.003093)">
+              <g id="Mask" transform="translate(0.000000, 0.003093)" fill="#E4632D" fill-rule="nonzero">
+                <path d="M49.1875977,26.3705078 L38.2859375,21.1021484 L38.2859375,7.08388672 C38.2859375,6.51855469 37.9606445,6.00371094 37.4501953,5.76103516 L25.6337891,0.141992188 C25.2341797,-0.048046875 24.7702148,-0.047265625 24.3713867,0.144042969 L12.6526367,5.76308594 C12.1512695,6.00361328 11.8222656,6.51777344 11.8212891,7.08017578 L11.8211914,21.0705078 L0.833105469,26.3699219 C0.333886719,26.6107422 0.00458984375,27.1236328 0.00458984375,27.6893555 L0.00458984375,42.5957031 C0.00458984375,43.1490234 0.316308594,43.6550781 0.810546875,43.9040039 L12.6038086,49.843457 C13.0501953,50.0682617 13.6360352,50.0613281 14.0961914,49.7550781 L25.0033203,44.2378906 L36.0369141,49.8412109 C36.4827148,50.0676758 37.0660156,50.0619141 37.5260742,49.7597656 L49.206543,43.9052734 C49.7021484,43.6569336 49.9955078,43.1500977 49.9955078,42.5957031 L49.9955078,27.6893555 C49.9955078,27.1273437 49.6900391,26.6134766 49.1875977,26.3705078 Z M11.8209961,46.1689453 L2.93427734,41.6932617 L2.93427734,30.0672852 L11.8209961,34.5429688 L11.8209961,46.1689453 Z M13.2612305,31.9879883 L4.78251953,27.7177734 L13.2828125,23.6179687 L21.7036133,27.7174805 L13.2612305,31.9879883 Z M23.5397461,41.6951172 L14.7506836,46.140918 L14.7506836,34.5177734 L23.5397461,30.0719727 L23.5397461,41.6951172 Z M23.5397461,25.3481445 L14.7506836,21.0737305 L14.7506836,9.46855469 L23.5397461,13.9232422 L23.5397461,25.3481445 Z M16.5979492,7.1203125 L25.0072266,3.08818359 L33.4612305,7.10830078 L25.0055664,11.3816406 L16.5979492,7.1203125 Z M35.3561523,9.43310547 L35.3561523,21.0416016 L26.4694336,25.3510742 L26.4694336,13.9243164 L35.3561523,9.43310547 Z M35.2584961,46.1601562 L26.4694336,41.6966797 L26.4694336,30.0761719 L35.2584961,34.5396484 L35.2584961,46.1601562 Z M36.7044922,31.9881836 L28.3110352,27.7255859 L36.7886719,23.6324219 L45.2332031,27.7133789 L36.7044922,31.9881836 Z M47.0852539,41.6914062 L38.1881836,46.1507812 L38.1881836,34.521582 L47.0852539,30.0621094 L47.0852539,41.6914062 Z" id="Shape"></path>
+              </g>
+              <polygon fill="#FA8B16" transform="translate(25.272461, 13.621574) rotate(-315.000000) translate(-25.272461, -13.621574) " points="11.13673 1.42679638 44.6163371 -6 34.8642949 23.5987264 5.92858474 33.2431489"></polygon>
+            </g>
+          </g>
+        </svg>
+        <p class="text-info mt-3">Reporting</p>
+      </lib-card>
     </div>
     <div class="col-auto text-center d-none d-xxl-block">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 7</lib-card>
-    </div>
-    <div class="col-auto text-center d-none">
-      <lib-card [cardConfig]="customCardSettings2">Workspace 8</lib-card>
+      <lib-card [cardConfig]="workspaceSettings5">
+        <svg width="44px" height="44px" viewBox="0 0 45 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>top-icon-insights</title>
+          <g id="top-icon-insights" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Path-4" transform="translate(-0.619141, 0.000000)">
+              <g id="Mask" transform="translate(0.619141, 0.000000)" fill-rule="nonzero">
+                <path d="M43.3138661,12.0137688 C43.7524414,12.2683594 43.3130859,12.0132812 43.3138661,12.0137688 L43.3138661,12.0137688 Z" id="Path" fill="#000000"></path>
+                <path d="M43.3138672,12.0137695 C43.3130859,12.0132813 43.3123047,12.0129883 43.3115234,12.0125 L22.8015625,0.194824219 C22.3680664,-0.0549804687 21.8155273,-0.0715820312 21.3561523,0.185644531 C21.3504883,0.188769531 21.3446289,0.191503906 21.3389648,0.194824219 L0.830566406,12.0115234 C0.387109375,12.2689453 0.0969726562,12.7509766 0.0969726562,13.2807617 L0.0969726562,36.7188477 C0.0969726562,37.2414063 0.38671875,37.7384766 0.842089844,37.9947266 L21.3364258,49.8033203 C21.7799805,50.0575195 22.3242187,50.0681641 22.7786133,49.8169922 C22.7862305,49.812793 22.794043,49.809082 22.8015625,49.8047852 L22.8024414,49.8042969 L43.2987305,37.9945313 C43.3023437,37.9924805 43.305957,37.9904297 43.3095703,37.9883789 C43.7612305,37.7279297 44.0379883,37.2475586 44.0429687,36.7351563 C44.0430664,36.7296875 44.0435547,36.7244141 44.0435547,36.7189453 L44.0435547,13.2808594 C44.0435547,12.7489258 43.7524414,12.2683594 43.3138672,12.0137695 Z M23.5351562,3.99873047 L39.6352539,13.2753906 L32.7144531,17.2301758 C30.5861328,14.3222656 27.2970703,12.3155273 23.5351562,11.8976563 L23.5351562,3.99873047 Z M32.3244141,24.999707 C32.3244141,26.8485352 31.8324219,28.584668 30.9726562,30.084082 C30.9722656,30.0847656 30.9717773,30.0853516 30.9713867,30.0860352 C30.9708008,30.0870117 30.9704102,30.0880859 30.9699219,30.0889648 C29.43125,32.7692383 26.7166992,34.6916016 23.5351562,35.1487305 L23.5351562,25.8498047 L31.609082,21.2361328 C32.0706055,22.4019531 32.3244141,23.6716797 32.3244141,24.999707 Z M20.6053711,3.99873047 L20.6053711,11.8976563 C16.843457,12.3154297 13.5543945,14.3222656 11.4260742,17.2301758 L4.50527344,13.2753906 L20.6053711,3.99873047 Z M3.02685547,15.8049805 L9.96845703,19.771582 C9.27294922,21.3753906 8.88642578,23.1431641 8.88642578,24.999707 C8.88642578,26.85625 9.27294922,28.6240234 9.96845703,30.227832 L3.02685547,34.1944336 L3.02685547,15.8049805 Z M20.6053711,46.0007813 L4.50527344,36.7240234 L11.4260742,32.7693359 C13.5543945,35.6772461 16.843457,37.6839844 20.6053711,38.1018555 L20.6053711,46.0007813 L20.6053711,46.0007813 Z M20.6053711,35.1489258 C17.4238281,34.6917969 14.709375,32.7693359 13.1706055,30.0891602 C13.1700195,30.0881836 13.1696289,30.0871094 13.1691406,30.0862305 C13.16875,30.0855469 13.1682617,30.0849609 13.1678711,30.0842773 C12.3082031,28.5848633 11.8161133,26.8487305 11.8161133,24.9999023 C11.8161133,23.6719727 12.0699219,22.4020508 12.5314453,21.2363281 L20.6053711,25.85 L20.6053711,35.1489258 L20.6053711,35.1489258 Z M22.0702148,23.3125 L13.9890625,18.6947266 C15.8673828,16.2925781 18.7914062,14.7456055 22.0702148,14.7456055 C25.3489258,14.7456055 28.2729492,16.2925781 30.1513672,18.6947266 L22.0702148,23.3125 Z M23.5351562,46.0006836 L23.5351562,38.1017578 C27.2970703,37.6839844 30.5861328,35.6771484 32.7144531,32.7692383 L39.6352539,36.7239258 L23.5351562,46.0006836 Z M41.1136719,34.1945313 L34.1720703,30.227832 C34.8675781,28.6240234 35.2541016,26.85625 35.2541016,24.999707 C35.2541016,23.1431641 34.8675781,21.3753906 34.1720703,19.771582 L41.1136719,15.8049805 L41.1136719,34.1945313 Z" id="Shape" fill="#75BFCC"></path>
+              </g>
+              <polygon fill="#035D8E" points="-3.50292969 12.0581543 23.1191406 27.1006836 47.2294922 13.4685547 47.2294922 40.1712158 22.6191406 56.0058594 -1.29980469 40.1712158"></polygon>
+            </g>
+          </g>
+        </svg>
+        <p class="text-info mt-3">Insights</p>
+      </lib-card>
     </div>
     <div class="col-auto text-center align-self-center">
-      <button mat-fab class="bg-light text-secondary fs-5">Button</button>
+      <svg class="workspaces-button" width="70px" height="70px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>right-arrow</title>
+        <g id="right-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="36" cy="36" r="35"></circle>
+          <circle id="Oval" stroke="#D5D1C7" cx="36" cy="36" r="35"></circle>
+          <path d="M47.1,35.3 L37.8,26 C37.5,25.7 37.1,25.7 36.8,26 C36.5,26.3 36.5,26.7 36.8,27 L45,35.2 L27.3,35.2 C26.9,35.2 26.6,35.5 26.6,35.9 C26.6,36.3 26.9,36.6 27.3,36.6 L45,36.6 L36.8,44.8 C36.5,45.1 36.5,45.5 36.8,45.8 C36.9,45.9 37.1,46 37.3,46 C37.5,46 37.6,45.9 37.8,45.8 L47.1,36.5 C47.4,36 47.4,35.6 47.1,35.3 Z" id="Path" fill="#6D6E71" fill-rule="nonzero"></path>
+        </g>
+      </svg>
+<!--      <button mat-fab class="home bg-light text-secondary fs-5 mat-fab__custom-size">Button</button>-->
     </div>
   </div>
+  <section class="home-greetings py-5">
+    <p class="home-greetings__name fs-2 m-0 p-0">Good morning, Julia</p>
+    <div class="home-greetings__text">On the docket for today</div>
+  </section>
   <div class="home-content grid-layout">
-    <div class="grid-item item-w-span-3 item-h-span-2">content 1</div>
-    <div class="grid-item item-w-span-2">content 2</div>
-    <div class="grid-item item-span-2">content 3</div>
-    <div class="grid-item">content 4</div>
-    <div class="grid-item">content 5</div>
-    <div class="grid-item">content 6</div>
-    <div class="grid-item">content 7</div>
-    <div class="grid-item item-w-span-4">content 8</div>
-    <div class="grid-item">item 9</div>
-    <div class="grid-item item-w-span-3">content 10</div>
+    <div class="grid-item item-w-span-3 item-h-span-2">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <svg class="card-img" width="559px" height="362px" viewBox="0 0 600 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>pill-tasks</title>
+            <g id="pill-tasks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Group-8">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="600" height="368" rx="10"></rect>
+                <text id="Today" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="141.376641" y="51">Today</tspan>
+                </text>
+                <text id="Upcoming" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="115.619813" y="210">Upcoming</tspan>
+                </text>
+                <text id="Tomorrow" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="115.353211" y="118">Tomorrow</tspan>
+                </text>
+                <text id="Monday" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#E42070">
+                  <tspan x="31" y="49">MONDAY</tspan>
+                </text>
+                <g id="Group-17" transform="translate(203.000000, 254.000000)" fill="#020303">
+                  <polygon id="Fill-1" points="25.4168 2.8242 22.5928 2.8242 22.5928 5.6482 25.4168 5.6482 28.2408 5.6482 28.2408 2.8242"></polygon>
+                  <path d="M36.7146,0.0005 L36.7146,2.8235 L33.8886,2.8235 L33.8886,0.0005 L31.0656,0.0005 L28.2416,0.0005 L28.2416,2.8235 L31.0656,2.8235 L31.0656,5.6485 L28.2416,5.6485 L28.2416,8.4725 L28.2416,11.2985 L31.0656,11.2985 L33.8886,11.2985 L36.7146,11.2985 L36.7146,8.4725 L36.7146,5.6485 L39.5386,5.6485 L39.5386,8.4725 L42.3616,8.4725 L42.3616,2.8235 L39.5386,2.8235 L39.5386,0.0005 L36.7146,0.0005 Z M31.0656,8.4725 L33.8886,8.4725 L33.8886,5.6485 L31.0656,5.6485 L31.0656,8.4725 Z" id="Fill-2"></path>
+                  <polygon id="Fill-3" points="22.592 11.2967 25.416 11.2967 25.416 8.4727 22.592 8.4727"></polygon>
+                  <polygon id="Fill-4" points="39.5379 11.2964 36.7139 11.2964 36.7139 14.1204 36.7139 16.9444 39.5379 16.9444 39.5379 14.1204 42.3599 14.1204 42.3599 11.2964"></polygon>
+                  <polygon id="Fill-5" points="36.7137 22.5927 36.7137 19.7697 33.8897 19.7697 33.8897 16.9457 31.0657 16.9457 31.0657 14.1207 28.2407 14.1207 25.4167 14.1207 22.5927 14.1207 22.5927 16.9457 25.4167 16.9457 28.2407 16.9457 28.2407 19.7697 31.0657 19.7697 31.0657 22.5927 33.8897 22.5927"></polygon>
+                  <polygon id="Fill-6" points="16.9442 22.5927 14.1212 22.5927 11.2972 22.5927 11.2972 25.4167 11.2972 28.2407 14.1212 28.2407 16.9442 28.2407 16.9442 25.4167"></polygon>
+                  <polygon id="Fill-7" points="39.537 36.7137 42.36 36.7137 42.36 33.8897 39.537 33.8897"></polygon>
+                  <polygon id="Fill-8" points="39.5388 19.7681 39.5388 22.5921 36.7148 22.5921 36.7148 25.4161 39.5388 25.4161 39.5388 28.2421 39.5388 31.0671 42.3608 31.0671 42.3608 19.7681"></polygon>
+                  <polygon id="Fill-9" points="2.8242 22.5941 0.0002 22.5941 0.0002 25.4181 2.8242 25.4181 2.8242 28.2411 5.6472 28.2411 8.4712 28.2411 8.4712 25.4181 5.6472 25.4181 5.6472 22.5941"></polygon>
+                  <polygon id="Fill-10" points="31.0653 25.4169 31.0653 28.2409 33.8893 28.2409 36.7133 28.2409 36.7133 25.4169 33.8893 25.4169"></polygon>
+                  <polygon id="Fill-11" points="36.7137 33.8896 36.7137 31.0666 33.8897 31.0666 31.0657 31.0666 31.0657 33.8896 31.0657 36.7136 33.8897 36.7136 33.8897 33.8896"></polygon>
+                  <path d="M11.2968,31.0658 L8.4718,31.0658 L5.6478,31.0658 L2.8238,31.0658 L-0.0002,31.0658 L-0.0002,33.8898 L-0.0002,36.7148 L-0.0002,39.5388 L-0.0002,42.3618 L2.8238,42.3618 L2.8238,39.5388 L5.6478,39.5388 L5.6478,36.7148 L8.4718,36.7148 L11.2968,36.7148 L14.1208,36.7148 L16.9448,36.7148 L16.9448,33.8898 L14.1208,33.8898 L14.1208,31.0658 L11.2968,31.0658 Z M2.8238,36.7148 L5.6468,36.7148 L5.6468,33.8898 L2.8238,33.8898 L2.8238,36.7148 Z" id="Fill-12"></path>
+                  <polygon id="Fill-13" points="36.7137 36.7151 33.8907 36.7151 33.8907 39.5391 31.0647 39.5391 31.0647 42.3621 39.5377 42.3621 39.5377 39.5391 39.5377 36.7151"></polygon>
+                  <polygon id="Fill-14" points="28.2411 22.5923 25.4171 22.5923 25.4171 25.4183 25.4171 28.2423 25.4171 31.0653 25.4171 33.8903 22.5921 33.8903 22.5921 31.0653 22.5921 28.2423 22.5921 25.4183 22.5921 22.5923 19.7681 22.5923 19.7681 25.4183 19.7681 28.2423 16.9441 28.2423 16.9441 31.0653 16.9441 33.8903 19.7681 33.8903 19.7681 36.7153 16.9441 36.7153 16.9441 39.5393 14.1211 39.5393 11.2971 39.5393 11.2971 42.3613 16.9441 42.3613 19.7681 42.3613 22.5921 42.3613 22.5921 39.5393 22.5921 36.7153 25.4171 36.7153 25.4171 39.5393 28.2411 39.5393 31.0651 39.5393 31.0651 36.7153 28.2411 36.7153 28.2411 33.8903 28.2411 31.0653 31.0651 31.0653 31.0651 28.2423 28.2411 28.2423 28.2411 25.4183 31.0651 25.4183 31.0651 22.5923"></polygon>
+                  <path d="M0,19.8247 L19.825,19.8247 L19.825,-0.0003 L0,-0.0003 L0,19.8247 Z M1.983,17.8437 L17.843,17.8437 L17.843,1.9837 L1.983,1.9837 L1.983,17.8437 Z" id="Fill-15"></path>
+                  <polygon id="Fill-16" points="5.616 14.2087 14.207 14.2087 14.207 5.6177 5.616 5.6177"></polygon>
+                </g>
+                <text id="You-have-12-errors-i" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                  <tspan x="203" y="53">You have 12 errors in Friday’s payroll</tspan>
+                </text>
+                <text id="An-attestation-is-av" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                  <tspan x="203" y="120">An attestation is available that </tspan>
+                  <tspan x="203" y="139">requires your immediate attention</tspan>
+                </text>
+                <line x1="115.512387" y1="81.5" x2="574.512387" y2="81.5" id="Line-12" stroke="#979797" stroke-width="0.5" opacity="0.335733103" stroke-linecap="square"></line>
+                <line x1="115.512387" y1="167.5" x2="574.512387" y2="167.5" id="Line-12" stroke="#979797" stroke-width="0.5" opacity="0.335733103" stroke-linecap="square"></line>
+                <text id="14" font-family="Roboto-Light, Roboto" font-size="44" font-weight="300" fill="#3A3A3B">
+                  <tspan x="30" y="91">14</tspan>
+                </text>
+                <text id="8-participant-transa" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                  <tspan x="203" y="212">8 participant transactions will expire </tspan>
+                  <tspan x="203" y="231">within the next 3 days</tspan>
+                </text>
+                <text id="Did-you-know?-You-ca" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" fill="#363333">
+                  <tspan x="261" y="269">Did you know? </tspan>
+                  <tspan x="368.914062" y="269" font-family="Roboto-Regular, Roboto" font-weight="normal">You can approve </tspan>
+                  <tspan x="261" y="288" font-family="Roboto-Regular, Roboto" font-weight="normal">these transactions on the go with </tspan>
+                  <tspan x="261" y="307" font-family="Roboto-Regular, Roboto" font-weight="normal">the PlanFocus Mobile app?</tspan>
+                </text>
+                <g id="Group-4" transform="translate(499.000000, 31.000000)">
+                  <text id="Fix" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.0140000007" fill="#0288CC">
+                    <tspan x="29.3676797" y="21">Fix</tspan>
+                  </text>
+                  <rect id="Rectangle" stroke="#0288CC" x="0.5" y="0.5" width="75" height="31" rx="10"></rect>
+                </g>
+                <g id="Group-4" transform="translate(499.000000, 103.000000)">
+                  <text id="Confirm" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.0140000007" fill="#0288CC">
+                    <tspan x="13.4677813" y="21">Confirm</tspan>
+                  </text>
+                  <rect id="Rectangle" stroke="#0288CC" x="0.5" y="0.5" width="75" height="31" rx="10"></rect>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item item-w-span-3 item-h-span-2">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <svg class="card-img" width="559px" height="362px" viewBox="0 0 521 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>pill-plans</title>
+            <g id="pill-plans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Group-10">
+                <path d="M10,0 L511,0 C516.522847,-3.04461744e-14 521,4.4771525 521,10 L521,358 C521,363.522847 516.522847,368 511,368 L10,368 C4.4771525,368 6.76353751e-16,363.522847 0,358 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <text id="Your-plans-(3)" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" line-spacing="43" fill="#3C3C3C">
+                  <tspan x="31" y="37">Your plans (3)</tspan>
+                </text>
+                <text id="Participants-with-a" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="31" y="313">Participants with a balance</tspan>
+                </text>
+                <text id="9,876" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                  <tspan x="31" y="293">9,876</tspan>
+                </text>
+                <text id="$459,876,892.36" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                  <tspan x="328.2225" y="292.8405">$459,876,892.36</tspan>
+                </text>
+                <text id="Total-balance" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="331.2225" y="312.8405">Total balance</tspan>
+                </text>
+                <g id="Group-15" transform="translate(0.000000, 86.000000)">
+                  <g id="Group-14">
+                    <g id="divider_dashed" transform="translate(0.000000, 43.000000)" stroke="#D9DFE2" stroke-dasharray="8">
+                      <line x1="0" y1="124" x2="518" y2="124" id="Stroke-5"></line>
+                      <line x1="0" y1="59" x2="518" y2="59" id="Stroke-5"></line>
+                      <line x1="0" y1="0" x2="518" y2="0" id="Stroke-4"></line>
+                    </g>
+                    <path d="M38.4683358,23 C159.227762,38.5439079 166.746881,123.970254 237.29453,145.984317 C305.460962,167.255333 366.892894,69.7805709 485.468336,48.1775159" id="Stroke-7" stroke="#F87F4C" stroke-width="3" transform="translate(261.968336, 86.000000) scale(-1, -1) translate(-261.968336, -86.000000) "></path>
+                    <path d="M38.4683358,42.5609553 C42.1528667,71.9367955 47.0579099,105.814241 50.4251259,105.23186 C54.1740395,104.582223 53.5154963,61.6388958 57.7831506,60.9036591 C63.0294222,60.000281 64.7328049,124.754611 78.0177185,129.688799 C91.7882617,134.803356 100.455555,75.7528422 134.327302,35.1619671 C169.638462,-7.15465063 213.021376,-0.279193811 224.463104,1.53367675 C294.975055,12.7074405 299.365501,74.1163097 340.558578,89.9411554 C380.361252,105.23186 416.231623,35.1619671 485.468336,19.6325755" id="Stroke-7" stroke="#05659A" stroke-width="3"></path>
+                  </g>
+                  <path d="M491,19.0007654 C491,15.6865672 488.089181,13 484.5,13 C480.909161,13 478,15.6865672 478,19.0007654 C478,22.3134328 480.909161,25 484.5,25 C488.089181,25 491,22.3134328 491,19.0007654 Z" id="End-dot" stroke="#05659A" stroke-width="3" fill="#FFFFFF"></path>
+                  <path d="M45,39.0007654 C45,35.6865672 42.0891809,33 38.5,33 C34.9091605,33 32,35.6865672 32,39.0007654 C32,42.3134328 34.9091605,45 38.5,45 C42.0891809,45 45,42.3134328 45,39.0007654 Z" id="End-dot" stroke="#05659A" stroke-width="3" fill="#FFFFFF"></path>
+                  <path d="M45,123.000765 C45,119.686567 42.0891809,117 38.5,117 C34.9091605,117 32,119.686567 32,123.000765 C32,126.313433 34.9091605,129 38.5,129 C42.0891809,129 45,126.313433 45,123.000765 Z" id="End-dot" stroke="#F87F4C" stroke-width="3" fill="#FFFFFF"></path>
+                  <path d="M491,148.000765 C491,144.686567 488.089181,142 484.5,142 C480.909161,142 478,144.686567 478,148.000765 C478,151.313433 480.909161,154 484.5,154 C488.089181,154 491,151.313433 491,148.000765 Z" id="End-dot" stroke="#F87F4C" stroke-width="3" fill="#FFFFFF"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item item-w-span-2 item-h-span-1">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <img class="card-img" style="height:16.5rem" src="assets/app-images/pill-happily-retired-people.png" alt="pill-happily-retired-people">
+        </div>
+      </div>
+    </div>
+    <div class="grid-item item-w-span-2 item-h-span-2">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <img class="card-img" style="height:36rem" src="assets/app-images/pill-payroll-contributions2.png" alt="pill-happily-retired-people">
+        </div>
+      </div>
+    </div>
+    <div class="grid-item item-w-span-2 item-h-span-2">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <svg class="card-img" width="362px" height="362px" viewBox="0 0 363 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>pill-retirement-readiness</title>
+            <defs>
+              <linearGradient x1="50%" y1="0.193946678%" x2="50%" y2="100%" id="linearGradient-1">
+                <stop stop-color="#01A5C4" offset="0%"></stop>
+                <stop stop-color="#016981" offset="100%"></stop>
+              </linearGradient>
+              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+                <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+                <stop stop-color="#016981" offset="100%"></stop>
+              </linearGradient>
+              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+                <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+                <stop stop-color="#016981" offset="100%"></stop>
+              </linearGradient>
+              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+                <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+                <stop stop-color="#016981" offset="100%"></stop>
+              </linearGradient>
+              <linearGradient x1="70.9379554%" y1="-12.1452319%" x2="-21.925193%" y2="56.9505735%" id="linearGradient-5">
+                <stop stop-color="#01A9C9" offset="0%"></stop>
+                <stop stop-color="#02475B" offset="100%"></stop>
+              </linearGradient>
+            </defs>
+            <g id="pill-retirement-readiness" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Group-11">
+                <path d="M10,0 L353,0 C358.522847,-1.01453063e-15 363,4.4771525 363,10 L363,353 C363,358.522847 358.522847,363 353,363 L10,363 C4.4771525,363 6.76353751e-16,358.522847 0,353 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <text id="127" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                  <tspan x="29" y="309">127</tspan>
+                </text>
+                <text id="Monthly-enrollments" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                  <tspan x="29" y="329">Monthly enrollments</tspan>
+                </text>
+                <rect id="Rectangle-Copy-16" fill="#FFFFFF" x="79" y="18" width="205" height="220" rx="12"></rect>
+                <g id="Group-9" transform="translate(291.000000, 282.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+                  <line x1="40.5" y1="0.5" x2="40.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-1)"></line>
+                  <line x1="26.5" y1="29.5" x2="26.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-2)"></line>
+                  <line x1="14.5" y1="8.5" x2="14.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-3)"></line>
+                  <line x1="0.5" y1="22.5" x2="0.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-4)"></line>
+                </g>
+                <path d="M25.5,260.5 C225.833333,260.5 329.5,260.5 336.5,260.5" id="Line-14" stroke="#C8C8C8" stroke-width="0.5" stroke-linecap="square"></path>
+                <text id="RETIREMENT-READINESS" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="17" letter-spacing="-0.0140000007" fill="#363333">
+                  <tspan x="139.919609" y="99">RETIREMENT</tspan>
+                  <tspan x="145.152355" y="116">READINESS</tspan>
+                </text>
+                <text id="87%" font-family="Roboto-Light, Roboto" font-size="44" font-weight="300" line-spacing="28" letter-spacing="-0.785714286" fill="#01A3C3">
+                  <tspan x="139" y="176">87%</tspan>
+                </text>
+                <circle id="Oval-Copy-6" stroke="#EAE9E9" stroke-width="12" cx="177.5" cy="128.5" r="91.5"></circle>
+                <path d="M95.1382368,88.5924768 C89.2835799,100.653061 86,114.19307 86,128.5 C86,179.034055 126.965945,220 177.5,220 C228.034055,220 269,179.034055 269,128.5 C269,77.9659454 228.034055,37 177.5,37" id="Path" stroke="url(#linearGradient-5)" stroke-width="12" stroke-linecap="round"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item item-w-span-2 item-h-span-1">
+      <div class="card border-0 rounded-3">
+        <div class="card-body p-0">
+          <svg class="card-img" width="362px" height="165px" viewBox="0 0 362 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>pill-reporting</title>
+            <g id="pill-reporting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Group-19">
+                <path d="M10,0 L352,0 C357.522847,-1.01453063e-15 362,4.4771525 362,10 L362,156 C362,161.522847 357.522847,166 352,166 L10,166 C4.4771525,166 6.76353751e-16,161.522847 0,156 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <text id="Reporting" font-family="Roboto-Medium, Roboto" font-size="18" font-weight="400" line-spacing="43" fill="#363333">
+                  <tspan x="29" y="31">Reporting</tspan>
+                </text>
+                <text id="Your-Plan-Review-rep" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#363333">
+                  <tspan x="50" y="73">Your Plan Review report is ready for review</tspan>
+                </text>
+                <text id="The-report-you-set-a" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#363333">
+                  <tspan x="50" y="101">The report you set an alert for is ready</tspan>
+                </text>
+                <text id="Your-408(b)(2)-discl" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#363333">
+                  <tspan x="50" y="130">Your 408(b)(2) disclosure report is ready</tspan>
+                </text>
+                <g id="recurring" transform="translate(30.000000, 61.000000)" stroke="#0195B3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.07190766,0 L5.46585796,1.01365958 L4.46395618,2.42396855 M0.15142243,7.75669937 C-0.414869881,5.37680297 0.630592846,2.82061795 2.89576209,1.63066975 C3.72342008,1.1899482 4.59463902,0.969587421 5.46585796,1.01365958 M0.935519475,11.1502553 L1.02264137,9.38736912 L2.76507925,9.47551343 M9.51702602,10.2688122 C7.86171004,12.0757706 5.16093133,12.5605643 2.93932303,11.2824718 C2.11166504,10.7976781 1.45825084,10.1806679 1.02264137,9.43144128 M12,8.28556523 L10.4318059,9.07886403 L9.64770886,7.49226644 M6.94693015,1.14587604 C9.34278224,1.71881406 11.1287811,3.87834968 11.1287811,6.4345347 C11.1287811,7.36004997 10.9109763,8.28556523 10.4753669,9.03479188" id="Shape"></path>
+                </g>
+                <g id="recurring" transform="translate(30.000000, 119.000000)" stroke="#0195B3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.07190766,0 L5.46585796,1.01365958 L4.46395618,2.42396855 M0.15142243,7.75669937 C-0.414869881,5.37680297 0.630592846,2.82061795 2.89576209,1.63066975 C3.72342008,1.1899482 4.59463902,0.969587421 5.46585796,1.01365958 M0.935519475,11.1502553 L1.02264137,9.38736912 L2.76507925,9.47551343 M9.51702602,10.2688122 C7.86171004,12.0757706 5.16093133,12.5605643 2.93932303,11.2824718 C2.11166504,10.7976781 1.45825084,10.1806679 1.02264137,9.43144128 M12,8.28556523 L10.4318059,9.07886403 L9.64770886,7.49226644 M6.94693015,1.14587604 C9.34278224,1.71881406 11.1287811,3.87834968 11.1287811,6.4345347 C11.1287811,7.36004997 10.9109763,8.28556523 10.4753669,9.03479188" id="Shape"></path>
+                </g>
+                <g id="alert" transform="translate(31.000000, 89.000000)" stroke="#F87F4C" stroke-linejoin="round">
+                  <path d="M4.43076923,1.2 C4.43076923,0.784615385 4.8,0.415384615 5.21538462,0.415384615 C5.63076923,0.415384615 6,0.738461538 6,1.2 C6,1.61538462 5.63076923,1.98461538 5.21538462,1.98461538 C4.8,1.98461538 4.43076923,1.61538462 4.43076923,1.2 Z M6.36923077,10.8461538 C6.36923077,11.4923077 5.86153846,12 5.21538462,12 C4.56923077,12 4.06153846,11.4923077 4.06153846,10.8461538 M10.0153846,10.5692308 C10.0615385,10.5692308 10.0615385,10.5230769 10.0153846,10.4769231 C9,10.1076923 9,8.67692308 9,8.67692308 L9,5.76923077 C9,3.69230769 7.33846154,2.03076923 5.26153846,2.03076923 L5.21538462,2.03076923 C3.13846154,2.03076923 1.47692308,3.69230769 1.47692308,5.76923077 L1.47692308,8.67692308 C1.47692308,8.67692308 1.47692308,10.1076923 0.461538462,10.4769231 C0.415384615,10.4769231 0.415384615,10.5692308 0.461538462,10.5692308 L10.0153846,10.5692308 Z" id="Shape"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

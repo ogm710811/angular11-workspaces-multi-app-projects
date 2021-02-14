@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="363px" viewBox="0 0 363 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pill-retirement-readiness</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.193946678%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#01A5C4" offset="0%"></stop>
+            <stop stop-color="#016981" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+            <stop stop-color="#016981" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+            <stop stop-color="#016981" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#01A5C4" offset="0.193946678%"></stop>
+            <stop stop-color="#016981" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="70.9379554%" y1="-12.1452319%" x2="-21.925193%" y2="56.9505735%" id="linearGradient-5">
+            <stop stop-color="#01A9C9" offset="0%"></stop>
+            <stop stop-color="#02475B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pill-retirement-readiness" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11">
+            <path d="M10,0 L353,0 C358.522847,-1.01453063e-15 363,4.4771525 363,10 L363,353 C363,358.522847 358.522847,363 353,363 L10,363 C4.4771525,363 6.76353751e-16,358.522847 0,353 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <text id="127" font-family="Roboto-Medium, Roboto" font-size="22" font-weight="400" letter-spacing="-0.122" fill="#363333">
+                <tspan x="29" y="309">127</tspan>
+            </text>
+            <text id="Monthly-enrollments" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="29" y="329">Monthly enrollments</tspan>
+            </text>
+            <rect id="Rectangle-Copy-16" fill="#FFFFFF" x="79" y="18" width="205" height="220" rx="12"></rect>
+            <g id="Group-9" transform="translate(291.000000, 282.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+                <line x1="40.5" y1="0.5" x2="40.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-1)"></line>
+                <line x1="26.5" y1="29.5" x2="26.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-2)"></line>
+                <line x1="14.5" y1="8.5" x2="14.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-3)"></line>
+                <line x1="0.5" y1="22.5" x2="0.5" y2="44.5" id="Line-13" stroke="url(#linearGradient-4)"></line>
+            </g>
+            <path d="M25.5,260.5 C225.833333,260.5 329.5,260.5 336.5,260.5" id="Line-14" stroke="#C8C8C8" stroke-width="0.5" stroke-linecap="square"></path>
+            <text id="RETIREMENT-READINESS" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="17" letter-spacing="-0.0140000007" fill="#363333">
+                <tspan x="139.919609" y="99">RETIREMENT</tspan>
+                <tspan x="145.152355" y="116">READINESS</tspan>
+            </text>
+            <text id="87%" font-family="Roboto-Light, Roboto" font-size="44" font-weight="300" line-spacing="28" letter-spacing="-0.785714286" fill="#01A3C3">
+                <tspan x="139" y="176">87%</tspan>
+            </text>
+            <circle id="Oval-Copy-6" stroke="#EAE9E9" stroke-width="12" cx="177.5" cy="128.5" r="91.5"></circle>
+            <path d="M95.1382368,88.5924768 C89.2835799,100.653061 86,114.19307 86,128.5 C86,179.034055 126.965945,220 177.5,220 C228.034055,220 269,179.034055 269,128.5 C269,77.9659454 228.034055,37 177.5,37" id="Path" stroke="url(#linearGradient-5)" stroke-width="12" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

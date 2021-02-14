@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>side-nav-icon-recents</title>
+    <g id="side-nav-icon-recents" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.399164244">
+        <g id="24px_progress" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF">
+            <path d="M20,10 C20,15.523 15.523,20 10,20 C4.477,20 0,15.523 0,10 C0,4.477 4.477,0 10,0 C13.959,0 17.38,2.3 19.001,5.637" id="Path" stroke-width="1.5" stroke-linecap="round"></path>
+            <polyline id="Path" stroke-width="2" stroke-linecap="square" points="20 1.25 19.4983111 6.25 15 5.39989733"></polyline>
+            <polyline id="Path" stroke-width="1.5" stroke-linecap="round" points="10 5 10 10 5 10"></polyline>
+        </g>
+    </g>
+</svg>

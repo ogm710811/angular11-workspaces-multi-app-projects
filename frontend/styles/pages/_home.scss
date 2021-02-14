@@ -8,15 +8,34 @@
   }
 }
 
+.home-greetings {
+  &__name {
+
+  }
+
+  &__text {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #363333;
+  }
+}
+
 .home > [class*='row'] {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.home > [class*="row"]:first-child {
-  padding-top: 2rem;
-}
+//.home > [class*="row"]:first-child {
+//  padding-top: 2rem;
+//}
+//
+//.home > [class*="row"]:last-child {
+//  padding-bottom: 2rem;
+//}
 
-.home > [class*="row"]:last-child {
-  padding-bottom: 2rem;
+@include media-breakpoint-down(md) {
+  .workspaces-button {
+    width: 4.6rem;
+    height: 4.6rem;
+  }
 }

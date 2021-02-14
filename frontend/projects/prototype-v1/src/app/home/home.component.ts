@@ -7,52 +7,44 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  customCardSettings1 = {
-    bgColor: ['bg-card-primary'],
-    cardWidth: ['pill-w-1', 'pill-h-xs'],
+  workspaceSettings1 = {
+    bgColor: ['bg-secondary'],
+    cardWidth: ['pill-w-0', 'pill-h-xs'],
     hasNotification: false,
     hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
+    bodyAlignment: ['flex-column', 'align-items-center']
   };
 
-  customCardSettings11 = {
-    bgColor: ['bg-card-primary'],
-    cardWidth: ['pill-w-1', 'pill-h-s'],
+  workspaceSettings2 = {
+    bgColor: ['bg-white'],
+    cardWidth: ['pill-w-0', 'pill-h-xs'],
     hasNotification: false,
-    hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
-  };
-
-  customCardSettings2 = {
-    bgColor: ['bg-card-default'],
-    cardWidth: ['pill-w-1', 'pill-h-xs'],
-    hasNotification: false,
-    hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
+    hasIconBadge: true,
+    bodyAlignment: ['flex-column', 'align-items-center']
   };
 
   customCardSettings3 = {
-    bgColor: ['bg-card-default'],
-    cardWidth: ['pill-h-m'],
+    bgColor: ['bg-white'],
+    cardWidth: ['pill-w-0', 'pill-h-xs'],
     hasNotification: false,
     hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
+    bodyAlignment: ['flex-column', 'align-items-center']
   };
 
-  customCardSettings4 = {
-    bgColor: ['bg-card-default'],
-    cardWidth: ['pill-h-m'],
+  workspaceSettings4 = {
+    bgColor: ['bg-white'],
+    cardWidth: ['pill-w-0', 'pill-h-xs'],
     hasNotification: false,
     hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
+    bodyAlignment: ['flex-column', 'align-items-center']
   };
 
-  customCardSettings5 = {
-    bgColor: ['bg-card-default'],
-    cardWidth: ['pill-h-s'],
-    hasNotification: false,
+  workspaceSettings5 = {
+    bgColor: ['bg-white'],
+    cardWidth: ['pill-w-0', 'pill-h-xs'],
+    hasNotification: true,
     hasIconBadge: false,
-    bodyAlignment: ['flex-column', 'align-items-center', 'justify-content-around']
+    bodyAlignment: ['flex-column', 'align-items-center']
   };
 
   constructor() { }

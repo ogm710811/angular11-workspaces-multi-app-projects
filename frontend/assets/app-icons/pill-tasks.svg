@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="368px" viewBox="0 0 600 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pill-tasks</title>
+    <g id="pill-tasks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="600" height="368" rx="10"></rect>
+            <text id="Today" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="141.376641" y="51">Today</tspan>
+            </text>
+            <text id="Upcoming" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="115.619813" y="210">Upcoming</tspan>
+            </text>
+            <text id="Tomorrow" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="-0.0140000007" fill="#767575">
+                <tspan x="115.353211" y="118">Tomorrow</tspan>
+            </text>
+            <text id="Monday" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#E42070">
+                <tspan x="31" y="49">MONDAY</tspan>
+            </text>
+            <g id="Group-17" transform="translate(203.000000, 254.000000)" fill="#020303">
+                <polygon id="Fill-1" points="25.4168 2.8242 22.5928 2.8242 22.5928 5.6482 25.4168 5.6482 28.2408 5.6482 28.2408 2.8242"></polygon>
+                <path d="M36.7146,0.0005 L36.7146,2.8235 L33.8886,2.8235 L33.8886,0.0005 L31.0656,0.0005 L28.2416,0.0005 L28.2416,2.8235 L31.0656,2.8235 L31.0656,5.6485 L28.2416,5.6485 L28.2416,8.4725 L28.2416,11.2985 L31.0656,11.2985 L33.8886,11.2985 L36.7146,11.2985 L36.7146,8.4725 L36.7146,5.6485 L39.5386,5.6485 L39.5386,8.4725 L42.3616,8.4725 L42.3616,2.8235 L39.5386,2.8235 L39.5386,0.0005 L36.7146,0.0005 Z M31.0656,8.4725 L33.8886,8.4725 L33.8886,5.6485 L31.0656,5.6485 L31.0656,8.4725 Z" id="Fill-2"></path>
+                <polygon id="Fill-3" points="22.592 11.2967 25.416 11.2967 25.416 8.4727 22.592 8.4727"></polygon>
+                <polygon id="Fill-4" points="39.5379 11.2964 36.7139 11.2964 36.7139 14.1204 36.7139 16.9444 39.5379 16.9444 39.5379 14.1204 42.3599 14.1204 42.3599 11.2964"></polygon>
+                <polygon id="Fill-5" points="36.7137 22.5927 36.7137 19.7697 33.8897 19.7697 33.8897 16.9457 31.0657 16.9457 31.0657 14.1207 28.2407 14.1207 25.4167 14.1207 22.5927 14.1207 22.5927 16.9457 25.4167 16.9457 28.2407 16.9457 28.2407 19.7697 31.0657 19.7697 31.0657 22.5927 33.8897 22.5927"></polygon>
+                <polygon id="Fill-6" points="16.9442 22.5927 14.1212 22.5927 11.2972 22.5927 11.2972 25.4167 11.2972 28.2407 14.1212 28.2407 16.9442 28.2407 16.9442 25.4167"></polygon>
+                <polygon id="Fill-7" points="39.537 36.7137 42.36 36.7137 42.36 33.8897 39.537 33.8897"></polygon>
+                <polygon id="Fill-8" points="39.5388 19.7681 39.5388 22.5921 36.7148 22.5921 36.7148 25.4161 39.5388 25.4161 39.5388 28.2421 39.5388 31.0671 42.3608 31.0671 42.3608 19.7681"></polygon>
+                <polygon id="Fill-9" points="2.8242 22.5941 0.0002 22.5941 0.0002 25.4181 2.8242 25.4181 2.8242 28.2411 5.6472 28.2411 8.4712 28.2411 8.4712 25.4181 5.6472 25.4181 5.6472 22.5941"></polygon>
+                <polygon id="Fill-10" points="31.0653 25.4169 31.0653 28.2409 33.8893 28.2409 36.7133 28.2409 36.7133 25.4169 33.8893 25.4169"></polygon>
+                <polygon id="Fill-11" points="36.7137 33.8896 36.7137 31.0666 33.8897 31.0666 31.0657 31.0666 31.0657 33.8896 31.0657 36.7136 33.8897 36.7136 33.8897 33.8896"></polygon>
+                <path d="M11.2968,31.0658 L8.4718,31.0658 L5.6478,31.0658 L2.8238,31.0658 L-0.0002,31.0658 L-0.0002,33.8898 L-0.0002,36.7148 L-0.0002,39.5388 L-0.0002,42.3618 L2.8238,42.3618 L2.8238,39.5388 L5.6478,39.5388 L5.6478,36.7148 L8.4718,36.7148 L11.2968,36.7148 L14.1208,36.7148 L16.9448,36.7148 L16.9448,33.8898 L14.1208,33.8898 L14.1208,31.0658 L11.2968,31.0658 Z M2.8238,36.7148 L5.6468,36.7148 L5.6468,33.8898 L2.8238,33.8898 L2.8238,36.7148 Z" id="Fill-12"></path>
+                <polygon id="Fill-13" points="36.7137 36.7151 33.8907 36.7151 33.8907 39.5391 31.0647 39.5391 31.0647 42.3621 39.5377 42.3621 39.5377 39.5391 39.5377 36.7151"></polygon>
+                <polygon id="Fill-14" points="28.2411 22.5923 25.4171 22.5923 25.4171 25.4183 25.4171 28.2423 25.4171 31.0653 25.4171 33.8903 22.5921 33.8903 22.5921 31.0653 22.5921 28.2423 22.5921 25.4183 22.5921 22.5923 19.7681 22.5923 19.7681 25.4183 19.7681 28.2423 16.9441 28.2423 16.9441 31.0653 16.9441 33.8903 19.7681 33.8903 19.7681 36.7153 16.9441 36.7153 16.9441 39.5393 14.1211 39.5393 11.2971 39.5393 11.2971 42.3613 16.9441 42.3613 19.7681 42.3613 22.5921 42.3613 22.5921 39.5393 22.5921 36.7153 25.4171 36.7153 25.4171 39.5393 28.2411 39.5393 31.0651 39.5393 31.0651 36.7153 28.2411 36.7153 28.2411 33.8903 28.2411 31.0653 31.0651 31.0653 31.0651 28.2423 28.2411 28.2423 28.2411 25.4183 31.0651 25.4183 31.0651 22.5923"></polygon>
+                <path d="M0,19.8247 L19.825,19.8247 L19.825,-0.0003 L0,-0.0003 L0,19.8247 Z M1.983,17.8437 L17.843,17.8437 L17.843,1.9837 L1.983,1.9837 L1.983,17.8437 Z" id="Fill-15"></path>
+                <polygon id="Fill-16" points="5.616 14.2087 14.207 14.2087 14.207 5.6177 5.616 5.6177"></polygon>
+            </g>
+            <text id="You-have-12-errors-i" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                <tspan x="203" y="53">You have 12 errors in Friday’s payroll</tspan>
+            </text>
+            <text id="An-attestation-is-av" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                <tspan x="203" y="120">An attestation is available that </tspan>
+                <tspan x="203" y="139">requires your immediate attention</tspan>
+            </text>
+            <line x1="115.512387" y1="81.5" x2="574.512387" y2="81.5" id="Line-12" stroke="#979797" stroke-width="0.5" opacity="0.335733103" stroke-linecap="square"></line>
+            <line x1="115.512387" y1="167.5" x2="574.512387" y2="167.5" id="Line-12" stroke="#979797" stroke-width="0.5" opacity="0.335733103" stroke-linecap="square"></line>
+            <text id="14" font-family="Roboto-Light, Roboto" font-size="44" font-weight="300" fill="#3A3A3B">
+                <tspan x="30" y="91">14</tspan>
+            </text>
+            <text id="8-participant-transa" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#363333">
+                <tspan x="203" y="212">8 participant transactions will expire </tspan>
+                <tspan x="203" y="231">within the next 3 days</tspan>
+            </text>
+            <text id="Did-you-know?-You-ca" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" fill="#363333">
+                <tspan x="261" y="269">Did you know? </tspan>
+                <tspan x="368.914062" y="269" font-family="Roboto-Regular, Roboto" font-weight="normal">You can approve </tspan>
+                <tspan x="261" y="288" font-family="Roboto-Regular, Roboto" font-weight="normal">these transactions on the go with </tspan>
+                <tspan x="261" y="307" font-family="Roboto-Regular, Roboto" font-weight="normal">the PlanFocus Mobile app?</tspan>
+            </text>
+            <g id="Group-4" transform="translate(499.000000, 31.000000)">
+                <text id="Fix" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.0140000007" fill="#0288CC">
+                    <tspan x="29.3676797" y="21">Fix</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#0288CC" x="0.5" y="0.5" width="75" height="31" rx="10"></rect>
+            </g>
+            <g id="Group-4" transform="translate(499.000000, 103.000000)">
+                <text id="Confirm" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="-0.0140000007" fill="#0288CC">
+                    <tspan x="13.4677813" y="21">Confirm</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#0288CC" x="0.5" y="0.5" width="75" height="31" rx="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
