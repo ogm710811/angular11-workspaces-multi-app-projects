@@ -21,37 +21,3 @@ $grid-gutter-width: 3rem;
   //background-color: #333;
 }
 
-// Symmetric grid items
-.item-span-2 {
-  grid-column-end: span 2;
-  grid-row-end: span 2;
-}
-
-.item-span-3 {
-  grid-column-end: span 3;
-  grid-row-end: span 3;
-}
-
-// Asymmetric grid items
-// width classes
-.item-w-span-2 {
-  grid-column-end: span 2;
-}
-
-.item-w-span-3 {
-  grid-column-end: span 3;
-}
-
-.item-w-span-4 {
-  grid-column-end: span 4;
-}
-
-// height classes
-.item-h-span-2 {
-  grid-row-end: span 2;
-}
-
-.item-h-span-3 {
-  grid-row-end: span 3;
-}
-

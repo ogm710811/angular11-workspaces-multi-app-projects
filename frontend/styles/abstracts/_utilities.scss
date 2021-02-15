@@ -37,3 +37,36 @@ $utilities: map-merge(
     )
 );
 
+$utilities: map-merge(
+  $utilities,
+    (
+      "grid-column-span": (
+        property: grid-column-end,
+        class: col-span,
+        responsive: true,
+        values: (
+          1: span 1,
+          2: span 2,
+          3: span 3,
+          4: span 4
+        )
+      )
+    )
+);
+
+$utilities: map-merge(
+    $utilities,
+    (
+      "grid-row-span": (
+        property: grid-row-end,
+        class: row-span,
+        responsive: true,
+        values: (
+          1: span 1,
+          2: span 2,
+          3: span 3,
+          4: span 4
+        )
+      )
+    )
+);
