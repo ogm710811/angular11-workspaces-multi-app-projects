@@ -10,13 +10,17 @@
 
 .home-greetings {
   &__name {
-
+    color: #77736E;
   }
 
   &__text {
     font-size: 3.6rem;
     font-weight: bold;
     color: #363333;
+
+    @media (max-width: 320px) {
+      font-size: 2.6rem;
+    }
   }
 }
 

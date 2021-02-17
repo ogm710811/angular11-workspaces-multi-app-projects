@@ -4,9 +4,10 @@
 
 html {
   font-size: 62.5%;
-  //@include media-breakpoint-down(md) {
-  //  font-size: 52.5%;
-  //}
+
+  @media (max-width: 425px) {
+    font-size: 58.5%;
+  }
 }
 
 body::-webkit-scrollbar {
